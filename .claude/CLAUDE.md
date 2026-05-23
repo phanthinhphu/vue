@@ -70,8 +70,17 @@ modules/[feature]/
 5. MSAL disabled — controlled by `VITE_USE_MSAL_CLIENT` env var
 
 ## Active Feature Plan
-See [MCO-PLAN.md](MCO-PLAN.md) for full implementation plan.
-Sections: Design Tokens → Domain → Infrastructure → Atoms → Molecules → Organisms → MCO Module → Tests
+See [MCO-PLAN.md](../MCO-PLAN.md) for full implementation plan.
+
+Sections: Design Tokens → Domain → Infrastructure → Atoms → Molecules → Organisms → MCO Module → Tests → Polish
+
+**Current status (2026-05-23):** Phases 1–8 structure complete. Phase 9 (tests) and Phase 10 (Dashboard view, PerformanceTest view, QA) are next.
+
+Immediate TODOs:
+1. Complete `modules/mco/views/Dashboard.vue` — filter bar + ContainerTable wired to useContainers
+2. Implement `modules/mco/views/PerformanceTest.vue` — virtual scroll with 10k rows
+3. Run `npm test` and fix any failing specs
+4. `npm run type-check` + `npm run lint` clean pass
 
 ## Commands
 - `npm run dev`        — dev server

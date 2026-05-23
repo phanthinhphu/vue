@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @import "tailwindcss-primeui";
+
+@theme {
+  --color-primary: var(--color-blue-600);
+  --color-accent:  var(--color-amber-600);
+  --color-sidebar: var(--color-navy-900);
+}

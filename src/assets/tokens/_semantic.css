@@ -1,0 +1,40 @@
+:root {
+  /* ── Brand ── */
+  --color-primary:       var(--color-blue-600);
+  --color-primary-hover: var(--color-blue-700);
+  --color-accent:        var(--color-amber-600);
+
+  /* ── Layout ── */
+  --color-sidebar-bg:  var(--color-navy-900);
+  --color-header-bg:   var(--color-navy-900);
+  --color-page-bg:     var(--color-white);
+  --color-surface:     var(--color-white);
+  --color-surface-alt: var(--color-blue-50);
+
+  /* ── Text ── */
+  --color-text-primary:   var(--color-gray-900);
+  --color-text-secondary: var(--color-gray-600);
+  --color-text-inverse:   var(--color-white);
+  --color-text-disabled:  var(--color-gray-400);
+
+  /* ── Border ── */
+  --color-border:        var(--color-gray-200);
+  --color-border-strong: var(--color-gray-400);
+
+  /* ── Status ── */
+  --color-status-active:  var(--color-green-600);
+  --color-status-expired: var(--color-red-600);
+  --color-status-pending: var(--color-amber-700);
+
+  /* ── Header / TopBar ── */
+  --color-tab-active-bg:   var(--color-accent);
+  --color-tab-active-text: var(--color-white);
+  --color-tab-text:        var(--color-white);
+
+  /* ── Table ── */
+  --color-table-header-bg:   var(--color-blue-100);
+  --color-table-row-default: var(--color-white);
+  --color-table-row-alt:     var(--color-blue-50);
+  --color-table-row-hover:   var(--color-blue-100);
+  --color-table-border:      var(--color-border);
+}

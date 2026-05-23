@@ -5,6 +5,7 @@ import { PublicClientApplication } from "@azure/msal-browser";
 import axios from "axios";
 import { MsalRepository } from "./msal/msalRepository";
 import { LocalStorageRepository } from "./storages/localStorageRepository";
+import { ContainerRepository } from "./container/containerRepository";
 
 const msalInstance = new PublicClientApplication({
   auth: {
@@ -51,6 +52,9 @@ export class RepositoryFactory {
       }
       case ERepositories.LocalStorage: {
         return new LocalStorageRepository();
+      }
+      case ERepositories.Container: {
+        return new ContainerRepository();
       }
       default:
         throw new Error(`Invalid repository type: ${type}`);

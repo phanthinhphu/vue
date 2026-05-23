@@ -1,9 +1,10 @@
 export enum ERepositories {
   Msal,
   Posts,
-  LocalStorage
+  LocalStorage,
+  Container,
 }
 
 export enum EApisResource {
-  Posts = '/posts'
+  Posts = '/posts',
 }

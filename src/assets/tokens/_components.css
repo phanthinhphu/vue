@@ -1,0 +1,45 @@
+:root {
+  /* ── AppButton ── */
+  --btn-font-size:   var(--font-size-base);
+  --btn-font-weight: var(--font-weight-semibold);
+  --btn-radius:      var(--radius-md);
+  --btn-height-sm:   28px;
+  --btn-height-md:   36px;
+  --btn-height-lg:   44px;
+  --btn-px-sm:       var(--space-3);
+  --btn-px-md:       var(--space-4);
+
+  /* ── AppDataTable ── */
+  --table-header-height:      40px;
+  --table-row-height:         48px;
+  --table-cell-font-size:     var(--font-size-base);
+  --table-cell-font-weight:   var(--font-weight-semibold);
+  --table-cell-px:            var(--space-4);
+  --table-header-font-weight: var(--font-weight-semibold);
+
+  /* ── AppSidebar ── */
+  --sidebar-width:       56px;
+  --sidebar-icon-size:   20px;
+  --sidebar-item-height: 48px;
+
+  /* ── AppTopBar ── */
+  --topbar-height:    48px;
+  --topbar-logo-gap:  var(--space-3);
+  --topbar-tab-px:    var(--space-4);
+  --topbar-tab-height: 100%;
+
+  /* ── AppPageHeader ── */
+  --page-header-height: 64px;
+
+  /* ── AppBadge ── */
+  --badge-font-size:   var(--font-size-sm);
+  --badge-font-weight: var(--font-weight-semibold);
+
+  /* ── AppTextInput ── */
+  --input-height:        36px;
+  --input-font-size:     var(--font-size-base);
+  --input-border-radius: var(--radius-md);
+
+  /* ── AppSelect ── */
+  --select-height: 36px;
+}

@@ -2,6 +2,7 @@ import { msalService } from "@/plugins/services/services";
 import { createRouter, createWebHistory } from "vue-router";
 import { Routes } from "./constants";
 import postsRoutes from "../modules/posts/router";
+import mcoRoutes from "../modules/mco/router";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,7 +10,7 @@ const router = createRouter({
     {
       path: "/",
       alias: "/home/index",
-      redirect: { name: Routes.Posts.name },
+      redirect: { name: "mco-dashboard" },
     },
     {
       ...Routes.AccessDenied,
@@ -19,6 +20,7 @@ const router = createRouter({
       },
     },
     ...postsRoutes,
+    ...mcoRoutes,
   ],
 });
 
